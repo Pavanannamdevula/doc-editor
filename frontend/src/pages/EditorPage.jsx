@@ -6,7 +6,7 @@ import "react-quill-new/dist/quill.snow.css";
 import API from "../utils/api";
 import jsPDF from "jspdf";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://doc-editor-faoe.onrender.com");
 
 function EditorPage() {
   const { id } = useParams();
